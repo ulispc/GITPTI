@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Tabelas</title>
+	<meta charset="utf-8">
+	<style>
+	table,th,td{border:1px solid #000;}
+	th,td{padding:7px;}
+	.nome{background-color:red;}
+	.email{background-color:green;}
+	.telefone{background-color:blue;}
+	.cargo{background-color:yellow;}
+	
+	</style>
+</head>
+
+<body>
+<h1>Tabelas</h1>
+<table>
+	<capition>Cadastro de Clientes</caption>
+	<colgroup>
+	<col class="nome">
+	<col class="email">
+	<col class="telefone">
+	<col class="cargo">
+	</colgroup>
+	<thead>
+		<tr>
+			<th> Nome:</th>
+			<th> Email:</th>
+			<th> Telefone:</th>
+			<th> Cargo:</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td> Rodrigo</td>
+			<td> rodrigo@email.com.br</td>
+			<td> 21-9999-99999</td>
+			<td rowspan="2"> Desenvolvedor Web</td>
+		</tr>
+		<tr>
+			<td> Mauricio</td>
+			<td> mauricio@email.com.br</td>
+			<td> 21-9944-96699</td>
+		</tr>
+	</tbody>
+	<tfood>
+	 <tr>
+	 	 <td colspan="4">Total: 2</td>
+	 </tr>
+	 </tfood>
+</table>
+</body>
+
+</html>
